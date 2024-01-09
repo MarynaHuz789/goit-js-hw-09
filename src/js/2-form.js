@@ -6,7 +6,7 @@ import throttle from 'lodash.throttle';
 //  перевіряй стан сховища, і якщо там є збережені дані, то заповнюй ними поля форми
 // В іншому випадку поля повинні бути порожніми
 // Під час сабміту форми очищай сховище і поля форми
-//  виводь у консоль об'єкт з полями email, message та їхніми поточними значеннями
+// Ввиводь у консоль об'єкт з полями email, message та їхніми поточними значеннями
 
 const form = document.querySelector(".feedback-form");
 const emailInput = form.elements.email;
