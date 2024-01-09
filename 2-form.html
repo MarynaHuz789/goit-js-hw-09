@@ -6,13 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 3</title>
     
-    <script type="module" crossorigin src="/vanilla-app-template/assets/styles-6dc436fd.js"></script>
+    <script type="module" crossorigin src="/vanilla-app-template/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/modulepreload-polyfill-ec808ebb.js">
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-f8ab8876.js">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/vendor-8c8fa3ea.css">
     <link rel="stylesheet" href="/vanilla-app-template/assets/styles-4e9419f6.css">
   </head>
   <body>
     <section>
       <a href="./index.html">Go to home</a>
       <h1>Welcome to Form</h1>
+      <form class="feedback-form" autocomplete="off">
+        <label>
+          Email
+          <input type="email" name="email" autofocus />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="8"></textarea>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
     </section>
     
   </body>
