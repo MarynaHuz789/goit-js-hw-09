@@ -1,13 +1,5 @@
 import throttle from 'lodash.throttle';
 
-// Накинути на форму слухача події input
-// Записувати у локальне сховище об'єкт з полями email і message
-// зберігай поточні значення полів форми
-//  перевіряй стан сховища, і якщо там є збережені дані, то заповнюй ними поля форми
-// В іншому випадку поля повинні бути порожніми
-// Під час сабміту форми очищай сховище і поля форми
-// Ввиводь у консоль об'єкт з полями email, message та їхніми поточними значеннями
-
 const form = document.querySelector(".feedback-form");
 const emailInput = form.elements.email;
 const messageInput = form.elements.message;
