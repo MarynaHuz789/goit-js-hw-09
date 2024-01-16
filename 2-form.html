@@ -10,21 +10,23 @@
     <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/modulepreload-polyfill-ec808ebb.js">
     <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-f8ab8876.js">
     <link rel="stylesheet" href="/vanilla-app-template/assets/vendor-8c8fa3ea.css">
-    <link rel="stylesheet" href="/vanilla-app-template/assets/styles-4e9419f6.css">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/styles-8b2526c6.css">
   </head>
   <body>
     <section>
       <a href="./index.html">Go to home</a>
       <h1>Welcome to Form</h1>
       <form class="feedback-form" autocomplete="off">
-        <label>
+        <div class="input-box">
+          <label class="input_title">
           Email
-          <input type="email" name="email" autofocus />
-        </label>
-        <label>
+          <input type="email" name="email" id="name-input" autofocus />
+          </label>
+          <label class="input_title">
           Message
-          <textarea name="message" rows="8"></textarea>
-        </label>
+          <textarea name="message" rows="8" id="name-input"></textarea>
+          </label>
+        </div>
         <button type="submit">Submit</button>
       </form>
     </section>
