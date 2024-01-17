@@ -146,6 +146,5 @@ button:focus {
   max-width: 100%;
   width: calc((100% - 24px) / 3);
   object-fit: cover;
-  width: 360px;
-  
+  width: 360px;  
 }
